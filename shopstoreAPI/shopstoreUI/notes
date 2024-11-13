@@ -1,0 +1,4 @@
+1. Project setup
+2. npm add styled-components // css
+3. material ui added 
+4 . handling cart button we have to change in different component so we use redux

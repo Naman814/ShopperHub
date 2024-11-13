@@ -1,0 +1,18 @@
+creating nodejs app
+1. npm init
+2. npm i express mongoose dotenv nodemon
+dotenv : for hiding keys (payment,security reasons)
+nodemon : for refreshing the server
+3. Inside package.json > scripts > "test" -> replace by "start : nodemon index.js " , npm start to run the server  
+4. mongoose setup
+5. mongodb atlas -> a. cluster creation b.network setup c. database user setup 
+6. .env setup to hide the key
+7. models, routes created
+8. schema created 
+9. post req through postman and data stored in mongodb
+9 . npm i crypto-js for hiding the password
+10. register and login auth created
+11. JWT is added for security. : for verifying the users by providing them token for eg:  if they 
+  want to edit product remove cart so they can be identified as tursted user.
+12. Crud operations : user, product, order , cart routes created.
+13. Implementing stipe for payment
